@@ -1028,7 +1028,7 @@ class DeepinScreenshot(object):
         dialog.set_current_name("%s%s.%s" % (DEFAULT_FILENAME, getFormatTime(), filetype))
         self.saveFiletype = filetype
 
-       def saveSnapshot(self, pixbuf=None, filename=None, filetype='png'):
+    def saveSnapshot(self, pixbuf=None, filename=None, filetype='png'):
         '''Save snapshot.'''
 
         if pixbuf is None:
