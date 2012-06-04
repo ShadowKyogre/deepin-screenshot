@@ -1342,4 +1342,4 @@ class DeepinScreenshot(object):
         (self.currentX, self.currentY) = widget.window.get_pointer()[:2]
 
 if __name__ == "__main__":
-    MainScreenshot()
+    DeepinScreenshot()
